@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+/* Every rule is scoped to the first section only. */
+#eb50898d.luxury-hero{background:#0b0b0a;color:#f6f2e9;padding:0;position:relative;isolation:isolate;overflow:hidden}
+#eb50898d .luxury-hero__layout{width:100%;max-width:1360px;margin:0 auto;padding:40px 56px 48px;min-height:820px;position:relative;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);grid-template-rows:auto 1fr auto;grid-template-areas:'brand visual' 'copy visual' 'trust visual';column-gap:26px}
+#eb50898d .luxury-hero__brand{grid-area:brand;position:relative;z-index:2;padding-bottom:44px;line-height:1.4}
+#eb50898d .luxury-hero__brand>span{display:block;font-family:Lato,Arial,sans-serif;font-size:16px;letter-spacing:.14em;font-weight:400;color:#f4ede0}
+#eb50898d .luxury-hero__brand b{font-weight:700;color:#d9b773}
+#eb50898d .luxury-hero__brand small{display:block;margin-top:7px;font-size:14px;letter-spacing:.07em;color:#bdb3a4}
+#eb50898d .luxury-hero__copy{grid-area:copy;position:relative;z-index:2;align-self:center;min-width:0;padding:0 0 28px}
+#eb50898d #hero-headline{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(52px,5.15vw,74px);line-height:1.02;letter-spacing:-.03em;color:#faf6ee;text-align:left;margin:0 0 29px;overflow-wrap:normal}
+#eb50898d #hero-headline em{font-weight:400;color:#e2c790}
+#eb50898d .luxury-hero__description{max-width:490px;font-family:Lato,Arial,sans-serif;font-size:18px;line-height:1.7;font-weight:400;color:#ddd8cf;margin:0 0 32px}
+#eb50898d #e1e229f59{text-align:left}
+#eb50898d .luxury-hero__cta{display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:58px;max-width:100%;padding:18px 27px;background:#dfc18b;border:1px solid #edcf9b;border-radius:7px;color:#17140f;text-decoration:none;font-family:Lato,Arial,sans-serif;font-size:15px;line-height:1.4;letter-spacing:.055em;font-weight:800;transition:background .2s,transform .2s;box-shadow:0 7px 24px #0003;touch-action:manipulation}
+#eb50898d .luxury-hero__cta:hover{background:#edcf9d;transform:translateY(-2px)}
+#eb50898d .luxury-hero__cta:focus-visible{outline:3px solid #fff;outline-offset:5px}
+#eb50898d .luxury-hero__cta span{font-size:23px;line-height:1;font-weight:400}
+#eb50898d .luxury-hero__visual{grid-area:visual;position:absolute;inset:0 -56px -48px -45px;min-width:0;z-index:0;pointer-events:none}
+#eb50898d .luxury-hero__model{display:block;width:100%;height:100%;object-fit:cover;object-position:56% 20%;mask-image:linear-gradient(to right,transparent 0%,#000 18%,#000 100%)}
+#eb50898d .luxury-hero__visual:after{content:'';position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#0b0b0a);pointer-events:none}
+#eb50898d .luxury-hero__products{position:absolute;z-index:2;bottom:22px;right:24px;width:min(62%,370px);filter:drop-shadow(0 14px 18px #0009)}
+#eb50898d .luxury-hero__products img{display:block;width:100%;height:auto;object-fit:contain}
+#eb50898d #e63d033c7{grid-area:trust;position:relative;z-index:2;margin:0;font-family:Lato,Arial,sans-serif;font-size:13px;line-height:1.6;color:#c2b9aa;display:flex;align-items:baseline;gap:8px;letter-spacing:0}
+#eb50898d .luxury-hero__trust span{font-size:15px;color:#dec08b}
+@media(min-width:1440px){#eb50898d .luxury-hero__layout{min-height:850px}}
+@media(min-width:768px) and (max-width:1024px){#eb50898d .luxury-hero__layout{padding:32px 32px 38px;min-height:780px;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);column-gap:12px}#eb50898d #hero-headline{font-size:56px}#eb50898d .luxury-hero__description{font-size:17px;line-height:1.6}#eb50898d .luxury-hero__visual{inset:0 -32px -38px -35px}#eb50898d .luxury-hero__products{width:72%;right:12px;bottom:24px}#eb50898d .luxury-hero__cta{font-size:14px;gap:14px;padding:17px 20px}}
+@media(max-width:767px){#eb50898d .luxury-hero__layout{padding:27px 24px 25px;min-height:0;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto auto;grid-template-areas:'brand' 'copy' 'visual' 'trust';gap:0}#eb50898d .luxury-hero__brand{padding-bottom:31px}#eb50898d .luxury-hero__brand>span{font-size:14px;letter-spacing:.105em}#eb50898d .luxury-hero__brand small{font-size:13px;margin-top:5px}#eb50898d .luxury-hero__copy{padding:0 0 10px}#eb50898d #hero-headline{font-size:clamp(43px,9.5vw,65px);line-height:1.02;letter-spacing:-.025em;margin-bottom:23px}#eb50898d .luxury-hero__description{font-size:17px;line-height:1.65;max-width:500px;margin-bottom:26px}#eb50898d .luxury-hero__cta{width:100%;max-width:380px;min-height:56px;font-size:14px;gap:17px;padding:17px 18px}#eb50898d .luxury-hero__visual{position:relative;inset:auto;justify-self:center;margin:8px -24px 0;width:calc(100% + 48px);max-width:580px;aspect-ratio:4/5;min-height:0}#eb50898d .luxury-hero__model{width:100%;height:100%;object-fit:cover;object-position:center top;mask-image:linear-gradient(to bottom,transparent,#000 8%,#000 88%,transparent)}#eb50898d .luxury-hero__visual:after{inset:65% 0 0}#eb50898d .luxury-hero__products{bottom:0;right:12px;width:55%;max-width:300px}#eb50898d #e63d033c7{font-size:12px;justify-content:center;text-align:center;line-height:1.6;margin-top:14px;gap:6px}}
+@media(max-width:359px){#eb50898d .luxury-hero__layout{padding-left:20px;padding-right:20px}#eb50898d #hero-headline{font-size:39px}#eb50898d .luxury-hero__description{font-size:16px}#eb50898d .luxury-hero__brand>span{font-size:12px}#eb50898d .luxury-hero__cta{font-size:13px;gap:10px}}
+@media(prefers-reduced-motion:reduce){#eb50898d .luxury-hero__cta{transition:none}}
+
+/* Model framing only: retain the approved product overlay and copy layout. */
+@media(min-width:1025px){
+ #eb50898d .luxury-hero__model{width:calc(100% - 34px);object-fit:contain;object-position:left 20%;mask-image:linear-gradient(to right,transparent 0%,#000 18%,#000 94%,transparent 100%)}
+}
+@media(min-width:768px) and (max-width:1024px){
+ #eb50898d .luxury-hero__model{width:calc(100% - 24px);object-fit:contain;object-position:left center;mask-image:linear-gradient(to right,transparent 0%,#000 14%,#000 94%,transparent 100%)}
+}
+@media(max-width:767px){
+ #eb50898d .luxury-hero__model{width:calc(100% - 24px);margin-left:4px;object-fit:contain;object-position:center top;mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 88%,transparent 100%),linear-gradient(to right,transparent 0%,#000 5%,#000 95%,transparent 100%);mask-composite:intersect}
+}

@@ -1,0 +1,141 @@
+/* Shared editorial identity; the existing hero and functional destinations stay intact. */
+#site-content{--ink:#292823;--muted:#655f55;--paper:#faf8f3;--line:#e4dccb;--gold:#d9bd89;background:var(--paper);color:var(--ink)}
+#site-content>.outer,#site-content>.combo-section{padding:72px 24px;background:var(--paper);background-image:none}
+#site-content>.outer>.row,#site-content .combo-wrap{max-width:1120px;padding:0;margin:auto}
+#site-content>.outer>.row>.column{padding:0;margin:0}
+#site-content>.outer .spacer{display:none}
+#site-content>.outer .heading{margin:0 auto 22px;max-width:850px;font:400 19px/1.6 Lato,Arial,sans-serif;color:var(--muted);letter-spacing:0;text-align:center}
+#site-content>.outer .text-editor{font:400 18px/1.8 Lato,Arial,sans-serif;color:var(--muted)}
+#site-content>.outer .image-box h3{font:600 22px/1.3 Lato,Arial,sans-serif;color:var(--ink);margin:18px 0 12px}
+#site-content>.outer .image-box p{font-size:17px;line-height:1.65;color:var(--muted)}
+#site-content>.outer .icon-list{font-size:14px;color:var(--muted);margin-top:14px}
+#site-content :is(.outer,.combo-section) a.button,#site-content .whatsapp{background:var(--gold);color:#241e14;border:1px solid #cdb17b;border-radius:6px;box-shadow:none;min-height:56px;font-size:15px;letter-spacing:.035em;padding:18px 27px}
+#site-content :is(.outer,.combo-section) div.button{margin:28px auto 0;background:none;border:0;padding:0;box-shadow:none;max-width:100%}
+#site-content>.outer :is(#e627fad58,#e491ef2b6,#e269cad50,#ec01937d,#e31e12aaa,#e68458dcc,#e38fd686b,#e2ff36ad2,#ed49eba,#e3bb581e4,#e15296074,#e45d64c71),#site-content .combo-header h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(34px,4vw,48px);font-weight:500;line-height:1.12;color:var(--ink);letter-spacing:-.025em;max-width:800px;margin:0 auto 22px}
+#site-content .combo-header{margin-bottom:28px}
+#site-content .eyebrow,#site-content .care-label{color:#8e7040;font-size:12px;letter-spacing:.16em}
+#site-content .intro-note{max-width:680px;font-size:19px;line-height:1.7;text-align:center;margin:0 auto 36px;color:var(--muted)}
+#site-content .single-product{display:flex;justify-content:center;margin:0 auto;width:100%;height:340px;max-width:350px}
+#site-content .single-product svg{height:100%;width:auto;max-width:100%;display:block;filter:drop-shadow(0 16px 12px #241b111c)}
+#site-content .single-product.compact{height:220px;margin:12px auto 36px}
+#site-content .care-grid{gap:40px}
+#site-content .care-card{border:0;border-radius:0;background:#f1ede4;padding:36px;text-align:center}
+#site-content .care-card:nth-child(2){background:#eae5da}
+#site-content .care-card .single-product{height:300px;margin:28px auto}
+#site-content .care-card h3{font:500 29px/1.2 'Cormorant Garamond',Georgia,serif;color:var(--ink)}
+#site-content .care-card p{max-width:370px;margin:auto;color:var(--muted)}
+#site-content .text-link{display:inline-block;margin-top:22px;font-size:15px;font-weight:700;text-underline-offset:6px;text-decoration-color:#c7ab79}
+#site-content>.dark-editorial{background:#151512;color:#f5f0e6}
+#site-content>.dark-editorial .combo-header h2,#site-content>.dark-editorial .product-duo figcaption{color:#f5f0e6}
+#site-content>.dark-editorial .eyebrow{color:var(--gold)}
+#site-content .combination-layout{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;max-width:950px;margin:auto}
+#site-content .combination-layout .product-duo>img{max-height:360px}
+#site-content .combination-copy{text-align:left;display:grid;gap:14px;border-left:1px solid #5a4c35;padding-left:55px}
+#site-content .combination-copy strong{letter-spacing:.08em;font-size:17px;font-weight:600;color:#e4ca9b}
+#site-content .combination-copy p{margin-top:5px;color:#c9c3b8;font-size:18px}
+#site-content .combination-copy>span{font:300 26px/1 Georgia,serif;color:#97876a}
+#site-content #ea0856eb>.row,#site-content #e21adcb7f>.row{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+#site-content #ea0856eb>.row>.column,#site-content #e21adcb7f>.row>.column{width:auto;padding:0;margin:0}
+#site-content #ea0856eb #e4fcd3a24{grid-column:1;grid-row:1}
+#site-content #ea0856eb #e77476d17{grid-column:2;grid-row:1}
+#site-content #e35a6cbdb{padding-bottom:36px}
+#site-content #e6cc534d5{padding-top:36px}
+#site-content #e6eecf1da>.row,#site-content #e40fae07c>.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+#site-content #e6eecf1da>.row>.column,#site-content #e40fae07c>.row>.column{width:auto;padding:0;margin:0}
+#site-content #e40fae07c{margin-top:34px}
+#site-content #e6cc534d5 .image img{width:100%;max-height:230px;object-fit:contain;border-radius:8px}
+#site-content #e6cc534d5 .image-box img{max-width:72px}
+#site-content #e7464535e{background:#efebe2;padding-top:45px;padding-bottom:45px}
+#site-content #e7464535e .single-product{height:190px;margin-bottom:5px}
+#site-content #e97be38a{background:#efebe2;padding-top:20px}
+#site-content #e97be38a .heading{text-align:left;margin-left:0}
+#site-content #e5745d65b{font-family:Georgia,serif;font-size:34px;color:var(--ink)}
+#site-content #e42e43613>.row,#site-content #e52f6dc98>.row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+#site-content #e42e43613>.row>.column,#site-content #e52f6dc98>.row>.column{width:auto;padding:24px 18px;border-top:1px solid var(--line);margin:0}
+#site-content #e2f3966ad .image-box img{height:100px;width:100px;object-fit:contain}
+#site-content #e2f3966ad .image-box{text-align:left}
+#site-content #e2f3966ad .image-box p{font-size:16px}
+#site-content #serum-facial{background:#eee9df}
+#site-content .serum-presentation{gap:65px}
+#site-content .serum-benefits li{padding:12px 0 12px 24px;border-bottom:1px solid #d9d0c0;margin:0}
+#site-content .formula-layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:60px;align-items:center}
+#site-content .formula-layout .actives-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+#site-content .formula-layout .active-card{padding:18px 6px;border-bottom:1px solid var(--line)}
+#site-content #e7a7401b5{background:#efebe2}
+#site-content #e6a06e2f8>.row>.column{background:transparent;border:0;border-radius:0;border-top:1px solid #cfc3ad}
+#site-content #e6a06e2f8 .heading{font-size:17px;line-height:1.65;margin:18px 0 0}
+#site-content #como-usar-serum{background:#efebe2;padding-top:28px}
+#site-content .serum-steps article{border-top:1px solid #cfc3ad;padding-top:24px}
+#site-content .serum-steps h3{font:500 28px/1.2 'Cormorant Garamond',Georgia,serif}
+#site-content #e1f16acf7{padding-top:48px;padding-bottom:40px;background:#f4f1ea}
+#site-content #e1f16acf7 img{max-height:270px;object-fit:contain}
+#site-content #e1176b5e{padding-top:36px;padding-bottom:48px;background:#f4f1ea}
+#site-content #e33ab5b05 .image-box img{max-height:80px;max-width:180px;object-fit:contain}
+#site-content #e33ab5b05 .image-box h3{font-size:21px}
+#site-content #e33ab5b05 .image-box p{font-size:16px}
+#site-content #e525ab4e3 img{max-width:400px;margin-top:30px}
+#site-content .combo-bridge .product-duo{max-width:430px}
+#site-content .combo-bridge .intro-note{color:#d5cbbb;margin-top:30px;margin-bottom:0}
+#site-content #e613783f7{padding-bottom:30px}
+#site-content #e73ce0386>.row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+#site-content #e73ce0386>.row>.column{width:auto;margin:0;padding:0}
+#site-content #e73ce0386 .video{margin:0;border-radius:8px}
+#site-content #prova-social{padding-top:34px}
+#site-content #ef85d0a7{padding-bottom:16px;background:#eee9df}
+#site-content #e6da2fea0{padding-top:12px;background:#eee9df}
+#site-content #e46fac91{font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:#846532}
+#site-content #e6af67c48 .kit-label{color:var(--ink)}
+#site-content #e6af67c48 .column{background:#faf8f3;border:1px solid var(--line);border-radius:10px;padding:18px 8px}
+#site-content #e6af67c48 #e3c57d048{padding:18px 8px;background:#faf8f3;border:1px solid var(--line);border-radius:10px}
+#site-content #e13952235 img,#site-content #e49a2b82f img,#site-content #e2aa9d6bd img{max-width:450px;margin:30px auto 0}
+#site-content #e624343b1{padding-bottom:30px}
+#site-content #e74b46f61>.row{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+#site-content #e74b46f61>.row>.column{width:auto;margin:0;padding:0}
+#site-content #e7a258e8d>.row{justify-content:center;gap:24px;margin-top:36px}
+#site-content #e7a258e8d>.row>.column{width:120px;padding:0}
+#site-content #e10b426e9{padding-top:25px}
+#site-content #e7f1e6f2f img{max-width:180px;margin-bottom:26px}
+#site-content #e2c5ae3d{max-width:760px}
+#site-content #e51076af8{background:#f0ece3}
+#site-content #e37a655e3>.row{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+#site-content #e37a655e3>.row>.column{width:auto;margin:0;padding:0;justify-content:flex-start}
+#site-content .toggle details{border:1px solid #ddd3c1;background:#fbf9f4;border-radius:5px}
+#site-content .toggle summary{font-size:17px;padding:22px 42px 22px 20px;color:var(--ink)}
+#site-content .toggle .answer{font-size:17px;line-height:1.7;color:var(--muted)}
+#site-content #e6538c808{margin-top:62px}
+#site-content #e45d64c71{margin-top:42px}
+#site-content #e22e1ee9f{background:#191916;padding:45px 24px;color:#d0c6b5}
+#site-content #e22e1ee9f .heading,#site-content #e22e1ee9f .text-editor,#site-content #e22e1ee9f .icon-list{color:#d0c6b5;font-size:15px}
+#site-content #e22e1ee9f .image img{max-width:240px}
+@media(max-width:1024px){#site-content .formula-layout{grid-template-columns:200px 1fr;gap:25px}#site-content .formula-layout .actives-grid{grid-template-columns:repeat(3,minmax(0,1fr))}#site-content #e73ce0386>.row{grid-template-columns:repeat(2,minmax(0,1fr));max-width:700px;margin:auto}}
+@media(max-width:767px){
+ #site-content>.outer,#site-content>.combo-section{padding:48px 22px}
+ #site-content>.outer .heading{font-size:18px;line-height:1.6;margin-bottom:20px}
+ #site-content>.outer .text-editor{font-size:17px;line-height:1.75}
+ #site-content>.outer :is(#e627fad58,#e491ef2b6,#e269cad50,#ec01937d,#e31e12aaa,#e68458dcc,#e38fd686b,#e2ff36ad2,#ed49eba,#e3bb581e4,#e15296074,#e45d64c71),#site-content .combo-header h2{font-size:35px;line-height:1.15}
+ #site-content .intro-note{font-size:18px}
+ #site-content .care-grid{gap:20px}#site-content .care-card{padding:27px 22px}#site-content .care-card .single-product{height:270px}
+ #site-content .single-product{height:300px}#site-content .single-product.compact{height:210px}
+ #site-content .combination-layout,#site-content .serum-presentation,#site-content .formula-layout{grid-template-columns:minmax(0,1fr);gap:32px}
+ #site-content .combination-copy{border-left:0;border-top:1px solid #5a4c35;padding:28px 0 0;text-align:center}
+ #site-content #ea0856eb>.row,#site-content #e21adcb7f>.row,#site-content #e74b46f61>.row{grid-template-columns:minmax(0,1fr);gap:32px}
+ #site-content #ea0856eb #e4fcd3a24,#site-content #ea0856eb #e77476d17{grid-column:auto;grid-row:auto}
+ #site-content #ea0856eb #e4fcd3a24{order:-1}
+ #site-content #e6eecf1da>.row,#site-content #e40fae07c>.row{grid-template-columns:minmax(0,1fr);gap:32px}
+ #site-content #e6cc534d5 .image img{max-height:260px}
+ #site-content #e42e43613>.row,#site-content #e52f6dc98>.row{grid-template-columns:minmax(0,1fr);gap:0}
+ #site-content #e2f3966ad .image-box{text-align:center}
+ #site-content .formula-layout .actives-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+ #site-content #e73ce0386>.row{grid-template-columns:minmax(0,1fr);gap:24px;max-width:360px}
+ #site-content #e6af67c48 .column{max-width:360px;justify-self:center;width:100%}
+ #site-content #e37a655e3>.row{grid-template-columns:minmax(0,1fr);gap:0}
+ #site-content #e13952235 img,#site-content #e49a2b82f img,#site-content #e2aa9d6bd img{max-width:100%}
+ #site-content :is(.outer,.combo-section) a.button,#site-content .whatsapp{width:100%;font-size:14px;padding:18px 20px}
+ #site-content #e22e1ee9f .row{gap:24px}
+}
+
+/* Restore contrast for the original white media logos and inline quotation text. */
+#site-content #e1176b5e{background:#191916;color:#e5ded1}
+#site-content #e1176b5e .heading,#site-content #e1176b5e #e68458dcc,#site-content #e1176b5e .image-box h3{color:#faf6ee}
+#site-content #e1176b5e #e4e7327a5,#site-content #e1176b5e .image-box p{color:#e5ded1}
+#site-content #e1176b5e .image-box p span{color:inherit!important;font-size:inherit!important}
